@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "UFC Fight Tracker Setup",
+        "description": "Do you want to set up the UFC Fight Tracker integration? This will automatically create all required sensors.",
+        "data": {
+          "stats_mode": "Stats Mode (Lite = Scoreboard only, Full Stats = Detailed API data)",
+          "keep_days": "Days to keep past results"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "single_instance_allowed": "Only a single instance of UFC Fight Tracker is allowed."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "UFC Fight Tracker Options",
+        "data": {
+          "stats_mode": "Stats Mode (Lite = Scoreboard only, Full Stats = Detailed API data)",
+          "keep_days": "Days to keep past results"
+        }
+      }
+    }
+  }
+}
